@@ -52,7 +52,7 @@ export default function SubmitPage({ studentId, onSubmitted }) {
 
   const loadStats = async () => {
     try {
-      const res = await fetch("http://127.0.0.1:8000/stats-public");
+      const res = await fetch("https://campus-backend-62mu.onrender.com/stats-public");
       if (res.ok) setStats(await res.json());
     } catch (e) {}
   };
