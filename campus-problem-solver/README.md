@@ -56,8 +56,8 @@ pip install -r requirements.txt
 cp .env.example .env
 # Add your ANTHROPIC_API_KEY to .env
 uvicorn main:app --reload
-# Runs on http://localhost:8000
-# Docs at http://localhost:8000/docs
+# Runs on https://campus-backend-62mu.onrender.com/
+# Docs at https://campus-backend-62mu.onrender.com//docs
 ```
 
 ### Frontend
@@ -66,7 +66,7 @@ uvicorn main:app --reload
 cd frontend
 npm install
 cp .env.example .env
-# .env already points to http://localhost:8000
+# .env already points to https://campus-backend-62mu.onrender.com/
 npm start
 # Runs on http://localhost:3000
 ```
