@@ -1,4 +1,4 @@
-const BASE = process.env.REACT_APP_API_URL || "https://campus-backend-62mu.onrender.com";
+const BASE = process.env.REACT_APP_API_URL || "https://campus-backend-62mu.onrender.com/stats-public";
 
 async function req(method, path, body, token) {
   const headers = { "Content-Type": "application/json" };
