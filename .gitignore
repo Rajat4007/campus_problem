@@ -1,0 +1,17 @@
+
+# Vercel
+.vercel
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+
+# Env files
+.env
+
+# Build
+dist/
+build/
